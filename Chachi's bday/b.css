@@ -1,0 +1,78 @@
+#bday{
+    background-image: url(background.jpg), url(background2.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: right,left;
+}
+button{
+    z-index: 5;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(9, 53, 83);
+    border: 4px solid rgb(9, 53, 83);
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+#b,#B,#B2,#B3,#B4,#B5,#B6,#B7{
+    margin-bottom: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button:hover{
+    opacity: 1;
+}
+audio{
+    display: none;
+}
+#dv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+#one{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+#two{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+#three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: auto;
+    height: 700px;
+}
+body{
+    background-color: pink;
+    background-image: url(heart.png);
+    background-size: 30px;
+}
+#content{
+    background-color: rgb(9, 53, 83);;
+    border-radius: 40px;
+    color: lightpink;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
